@@ -3,5 +3,29 @@
 .noticias {
 	max-width: 88rem;
 	padding-top: 4rem;
+	padding-bottom: 4rem;
+	margin: 0 auto;
+}
+
+.noticias__header {
+	padding-bottom: 3.5rem;
+}
+
+.noticias__h1 {
+	text-align: center;
+}
+
+.noticias__grilla {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+	padding-bottom: 64px;
+}
+
+.noticias__post {
+	padding: 1rem;
+}
+
+.noticias__boton {
 	margin: 0 auto;
 }

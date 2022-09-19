@@ -57,6 +57,20 @@ em {
 	color: inherit;
 }
 
+form,
+input,
+textarea,
+select,
+button,
+label {
+	font-family: inherit;
+	font-size: inherit;
+	hyphens: auto;
+	background-color: transparent;
+	color: inherit;
+	display: block;
+}
+
 body {
 	min-height: 100vh;
 	font-size: 100%;
