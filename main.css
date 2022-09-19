@@ -1,7 +1,7 @@
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	box-sizing: border-box;
-	vertical-align: baseline;
+@import "./reset.css";
+
+.noticias {
+	max-width: 88rem;
+	padding-top: 4rem;
+	margin: 0 auto;
 }
