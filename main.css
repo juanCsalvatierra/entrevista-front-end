@@ -34,7 +34,7 @@ body {
 .noticias__grilla {
 	display: grid;
 	gap: 2rem;
-	grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 27rem), 1fr));
 	padding-bottom: 64px;
 }
 
