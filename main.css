@@ -4,7 +4,7 @@
 	--primary: #eeeeee;
 	--white: #fff;
 	--black: #111;
-	--gray-100: ##1a1a1a;
+	--gray-100: #1a1a1a;
 	--gray-90: #464646;
 	--red: #dd2025;
 }
@@ -33,6 +33,7 @@ body {
 
 .noticias__grilla {
 	display: grid;
+	display: -ms-grid;
 	gap: 2rem;
 	grid-template-columns: repeat(auto-fill, minmax(min(100%, 27rem), 1fr));
 	padding-bottom: 64px;
@@ -88,7 +89,7 @@ body {
 .post__p {
 	font-weight: 400;
 	font-size: 1rem;
-	line-height: 24pxz;
+	line-height: 24px;
 	color: var(--gray-90);
 	margin-bottom: 1rem;
 }
@@ -97,8 +98,10 @@ body {
 	cursor: pointer;
 
 	display: flex;
+	display: -ms-flexbox;
 	gap: 8px;
 	align-items: center;
+	-ms-flex-align: center;
 }
 
 .autor__img {
@@ -119,8 +122,10 @@ body {
 	color: var(--white);
 
 	display: flex;
+	display: -ms-flexbox;
 	gap: 0.875rem;
 	align-items: center;
+	-ms-flex-align: center;
 }
 
 .boton__icon {
@@ -135,6 +140,7 @@ body {
 
 .post:hover .post__img {
 	transform: scale(1.1);
+	-ms-transform: scale(1.1);
 }
 
 button:hover {
