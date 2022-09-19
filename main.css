@@ -12,6 +12,9 @@
 }
 
 .noticias__h1 {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 36px;
 	text-align: center;
 }
 
@@ -26,12 +29,47 @@
 	padding: 1rem;
 }
 
+.post__categoria {
+	padding: 4px 8px;
+}
+
+.post__enlace {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.375rem;
+}
+
 .post__img {
 	max-width: 25.75rem;
 }
 
-.post__autor {
+.post__caption {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.post__h2 {
+	font-weight: 500;
+	font-size: 2rem;
+	line-height: 2.375rem;
+}
+
+.post__p {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 24pxz;
+}
+
+.autor__img {
 	width: 60px;
+}
+
+.autor__name {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.375rem;
 }
 
 .noticias__boton {
@@ -42,4 +80,10 @@
 
 .boton__icon {
 	width: 1.5rem;
+}
+
+.boton__enlace {
+	font-weight: 500;
+	font-size: 1.125rem;
+	line-height: 2.25rem;
 }
